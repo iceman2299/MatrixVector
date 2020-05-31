@@ -16,7 +16,7 @@
 //	Vector(int _x, int _y, int _z) :
 //		x(_x), y(_y), z(_z) 
 //	{
-//		std::cout << "just wtited: ";
+//		std::cout << "just writed: ";
 //	}
 //	Vector(const Vector &vector) :
 //		x(vector.x),
@@ -75,7 +75,7 @@ public:
 				a[i][j] = rand() % 10;
 			}
 		}
-		std::cout << "just wtited: ";
+		std::cout << "just writed: ";
 	}
 	Matrix(const Matrix &matrix) :
 		col(matrix.col),
@@ -103,8 +103,8 @@ int main()
 		for (int j = 1; j < m1.getrow(); j++)
 		{
 			std::cout << m1.geta(i + j);
-		}*/
-	}
+		}
+	}*/
 	system("pause");
 }
 
@@ -122,7 +122,7 @@ int main()
 //	Vector(int _x, int _y, int _z) :
 //		x(_x), y(_y), z(_z) 
 //	{
-//		std::cout << "just wtited: ";
+//		std::cout << "just writed: ";
 //	}
 //	Vector(const Vector &vector) :
 //		x(vector.x),
@@ -193,7 +193,7 @@ int main()
 //		col(_col), row(_row)
 //	{
 //		a = new int[col*row];
-//		std::cout << "just wtited: ";
+//		std::cout << "just writed: ";
 //	}
 //	Matrix(const Matrix &matrix) :
 //		col(matrix.col),
